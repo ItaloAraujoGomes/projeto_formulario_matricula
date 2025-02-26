@@ -106,7 +106,7 @@
 
               <div class="flex">
                 <div class="input-wrapper flex-2" >
-                  <label for="city">Rua</label>
+                  <label for="street">Rua</label>
                   <input
                     type="text"
                     id="street"
@@ -145,6 +145,30 @@
                     value="SP"
                     disabled
                   />
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="gardian">
+              <legend>Informações do responsável</legend>
+
+              <div class="input-wrapper">
+                <label for="gardian">Nome do responsável</label>
+                <input type="text" name="gardian" id="gardian">
+                <small>Principal responsável legal e contato de emergência</small>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="phone">Telefone</label>
+                <input type="text" name="phone" id="phone" placeholder="(10) 9 8765-4321">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="mail">E-mail</label>
+                <input type="email" name="mail" id="mail" required>
+                <div class="error">
+                  <img src="assets/icons/alert-circle.svg" alt="ícone de alerta vermelho">
+                  <span>Insira um e-mail válido</span>
                 </div>
               </div>
             </fieldset>
